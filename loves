@@ -1,0 +1,23 @@
+<div class="card hidden" id="p4">
+  <h2>💍 Para ti ❤️</h2>
+
+  <p style="font-size:14px; line-height:1.6;">
+    Mi amor ❤️<br><br>
+
+    Desde que llegaste a mi vida, todo tiene más color, más sentido y más sonrisas.
+    Contigo aprendí que el amor no solo se dice, se demuestra en los pequeños detalles,
+    en las risas compartidas y en cada momento juntos.<br><br>
+
+    Hoy quiero decirte algo que me nace directo del corazón 💓<br>
+    <strong>¿Quieres ser mi San Valentín?</strong><br><br>
+
+    Prometo cuidarte, apoyarte, hacerte reír incluso en los días difíciles
+    y seguir eligiéndote todos los días.<br><br>
+
+    Te amo más de lo que las palabras pueden explicar ❤️<br><br>
+
+    <strong>Alan</strong> 💌
+  </p>
+
+  <button onclick="alert('SÍ SABÍA 😍💖')">SÍ 💕</button>
+</div>
