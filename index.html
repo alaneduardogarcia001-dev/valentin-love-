@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Ti 💖</title>
+<style>
+body{
+  margin:0;
+  font-family: 'Comic Sans MS', cursive;
+  background:#ffd6e7;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+  width:300px;
+  box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+button{
+  background:#ff4d88;
+  border:none;
+  color:white;
+  padding:10px 20px;
+  border-radius:20px;
+  font-size:16px;
+  cursor:pointer;
+}
+.hidden{display:none;}
+</style>
+</head>
+<body>
+
+<div class="card" id="p1">
+  <h2>💘 Happy Valentine’s Day 💘</h2>
+  <p>Hice esto solo para ti</p>
+  <button onclick="next(1)">Next 💕</button>
+</div>
+
+<div class="card hidden" id="p2">
+  <h2>🥺💖</h2>
+  <p>Cada día contigo es mi parte favorita</p>
+  <button onclick="next(2)">Next 😳</button>
+</div>
+
+<div class="card hidden" id="p3">
+  <h2>📸✨</h2>
+  <p>Aquí iría nuestra foto más bonita</p>
+  <button onclick="next(3)">Next 🫶</button>
+</div>
+
+<div class="card hidden" id="p4">
+  <h2>💍</h2>
+  <p>¿Quieres ser mi San Valentín?</p>
+  <button onclick="alert('SÍ SABÍA 😍💖')">SÍ 💕</button>
+</div>
+
+<script>
+function next(n){
+  document.getElementById("p"+n).classList.add("hidden");
+  document.getElementById("p"+(n+1)).classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
